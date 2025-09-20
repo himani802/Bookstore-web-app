@@ -9,7 +9,7 @@ const path = require('path')
 const bcrypt = require('bcrypt')
 let jwt = require('jsonwebtoken')
 const validator = require('validator')
-const stripe = require('stripe')('sk_test_51PYOprRu6OEK2Oeo76k1wrdxX5fSFjX0V3jtW3fK8wVoN1XoLd9ckJ575v7R6gj9BzP1HNwB2yduAmTMe9TKZeOc00snyfygCY') // secretKey
+const stripe = require('stripe')('secret_key') // secretKey
 
 
 
